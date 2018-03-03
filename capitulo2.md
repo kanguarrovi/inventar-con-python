@@ -119,3 +119,48 @@ Figura 2-1: el editor de archivos (izquierda) y la consola interactiva (derecha)
 Ambas ventanas parecen similares, pero recuerda: la consola interactiva tiene el 
 prompt >>>, mientras que el editor de archivos no lo posee.
 
+## Creando el programa *Hello World!*
+
+Es una tradicción para los programadores que el primer programa que realicen
+muestre *Hello world!* en la pantalla. Ahora mismo crearás tu primer programa
+*Hello World!*.
+
+![Usando Python 3 en vez de Python 2](https://inventwithpython.com/invent4thed/images/00038.jpeg "Usando Python 3 en vez de Python 2")
+
+Cuando escribas tu programa, recuerda no incluir los numberos al principio de
+cada línea de código. Estos números están incluídos en este libro para poder
+referenciar la línea donde se encuentra el código. La esquina inferior derecha
+del editor de archivos te indicará donde se encuentra el cursor, de esta manera
+podrás verificar en cual línea de código te encuentras. La figura 2-2 muestra
+que el cursor está en la línea 1 (de arriba hacia abajo del editor) y la
+columna 0 (de izquierda a derecha).
+
+![Posicionamiento del cursor](https://inventwithpython.com/invent4thed/images/00039.jpeg "Posicionamiento del cursor")
+
+Figura 2-2: La esquina inferior derecha del editor de archivos te dice donde
+se encuentra el cursor.
+
+Ingresa el siguiente texto dentro de la nueva ventana del editor de archivos.
+Este es el *código fuente* del programa. Contiene las instrucciones que Python
+va a seguir cuando el programa sea ejecutado.
+
+*hello.py*
+
+***
+<pre>
+1. # This program says hello and asks for my name.
+2. print('Hello world!')
+3. print('What is your name?')
+4. myName = input()
+5. print('It is good to meet you, ' + myName)
+</pre>
+***
+
+IDLE marcará las diferentes instrucciones con colores distintos. Después de que
+hayas escrito el código, la ventana deberá verse como la Figura 2-3.
+
+![Ventana IDLE](https://inventwithpython.com/invent4thed/images/00041.jpeg "Ventana IDLE")
+
+Figura 2-3: el editor de archivos se verá como esto cuando hayas escrito el código.
+
+Verifica si tu ventana de IDLE se ve parecida.
