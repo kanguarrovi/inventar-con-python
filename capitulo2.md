@@ -164,3 +164,26 @@ hayas escrito el código, la ventana deberá verse como la Figura 2-3.
 Figura 2-3: el editor de archivos se verá como esto cuando hayas escrito el código.
 
 Verifica si tu ventana de IDLE se ve parecida.
+
+## Guardando tu programa
+
+Cuando hayas entrado a tu código fuente, guárdalo haciendo click en
+File -> Save As. (Archivo -> Guardar como). O presionando Ctrl + S para
+guardarlo con el atajo del teclado. La Figura 2-4 muestra la ventana de
+*Guardar como* cuando es abierta. Nombra el archivo como *hello.py* en
+área de texto y luego has click en Save (Guardar).
+
+![Ventana de guardado](https://inventwithpython.com/invent4thed/images/00043.jpeg "Ventana de guardado")
+
+Figura 2-4: Guardando tu programa.
+
+Recurrentemente deberías guardar tus programas mientras los escribes.
+De esa manera, si el ordenador falla o te sales accidentalmente del IDLE,
+no perderás mucho trabajo que hayas realizado.
+
+Para cargar tu programa previamente guardado, has click en File -> Open 
+(Archivo -> Abrir). Selecciona el archivo *hello.py* en la ventana que 
+aparece y has click sobre el botón Open (Abrir). Tu programa *hello.py*
+será abierto en el editor de archivos.
+
+ 
