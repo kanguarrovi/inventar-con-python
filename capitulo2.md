@@ -38,11 +38,13 @@ con comillas simples (''). Ingresa este códido en la consola interactiva:
 </pre>
 ***
 
+<p align="justify">
 Las comillas simples le indican a Python donde el string comienza y donde
 termina. Estas comillas no son parte del valor del texto del string. Ahora
 si ingresas *spam* dentro de la consola interactiva, podrás ver el contenido
 de la variable *spam*. Recuerda, Python evalua las variables como el valor
 guardado dentro de la variable. En este caso, este es el string *hello*.
+</p>
 
 ***
 <pre>
