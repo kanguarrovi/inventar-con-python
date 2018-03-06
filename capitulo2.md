@@ -2,12 +2,14 @@
 
 ![Matraz de Erlenmeyer](https://inventwithpython.com/invent4thed/images/00016.jpeg "Matraz de Erlenmeyer")
 
+<p align="justify">
 Ahora veremos lo que Python puede hacer con texto. Casi todos los programas
 le muestran texto al usuario, y los usuarios le introducen texto a los 
 programas a través del teclado. En este capítulo, harás tu primer programa,
 el cual hace ambas cosas. Aprenderás a guardar texto en variables, combinar
 texto, y mostrar el texto en la pantalla. El programa que crearás muestra el
 saludo *Hello world* y pregunta por el nombre del usuario.
+</p>
 
 ***
 Temas cubiertos en este capítulo:
@@ -28,7 +30,7 @@ Temas cubiertos en este capítulo:
 En Python, los valores de texto son llamados *strings* (hileras en inglés).
 Los strings pueden ser usadas como valores enteros o flotantes. Usted puede
 guardar strings en variables. En el código, los strings empiezan y terminan
-con comillas simples,'. Ingresa este cógido en la consola interactiva:
+con comillas simples (''). Ingresa este códido en la consola interactiva:
 
 ***
 <pre>
@@ -186,4 +188,4 @@ Para cargar tu programa previamente guardado, has click en File -> Open
 aparece y has click sobre el botón Open (Abrir). Tu programa *hello.py*
 será abierto en el editor de archivos.
 
- 
+
