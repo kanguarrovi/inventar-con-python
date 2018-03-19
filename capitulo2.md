@@ -190,4 +190,187 @@ Para cargar tu programa previamente guardado, has click en File -> Open
 aparece y has click sobre el botón Open (Abrir). Tu programa *hello.py*
 será abierto en el editor de archivos.
 
+## Ejecutando tu programa
 
+Es hora de ejecutar el programa. Has click en Run->Run Module. O sólo presiona F5 desde el editor de archivos (FN-5 en Mac). Tu programa será
+ejecutado desde la consola interactiva.
+
+Ingresa tu nombre cuando el programa te lo solicite. Se parecerá como
+la Figura 2-5.
+
+![Consola interactiva despues de ejecutar hello.py](https://inventwithpython.com/invent4thed/images/00045.jpeg "Consola interactiva despues de ejecutar hello.py")
+
+Figura 2-5: Consola interactiva despues de ejecutar hello.py
+
+Cuando ingresas tu nombre y presionas ENTER, el programa te saludará por
+tu nombre. ¡Felicidades! Has escrito tu primer programa y ahora eres un(a)
+programador(a). Presiona F5 de nuevo para ejecutar el programa una segunda
+vez e ingresar un nombre distinto.
+
+Si tienes algún error, compara tu código con el código de este libro en
+la [Herramienta Diff](https://nostarch.com/inventwithpython#diff)
+(En idioma inglés) Copia y pega tu código desde el editor de archivos a
+la página web y haz click en el botón que dice <b>Compare</b>. Esta 
+herramienta destacará cualquier diferencia que haya entre tu código y
+el código en este libro, como se muestra en la Figura 2-6.
+
+Mientras programas, si tienes un <b>NameError</b> que se ve como el de
+a continuación, eso significa que estás utilizando Python2 en lugar de
+Python3.
+
+***
+<pre>
+Hello world!
+What is your name?
+<b>Albert</b>
+Traceback (most recent call last):
+  File "C:/Python26/test1.py", line 4, in <module>
+    myName = input()
+  File "<string>", line 1, in <module>
+NameError: name 'Albert' is not defined
+</pre>
+***
+
+Para solucionar este problema, install Python3.4 y vuelve a ejecutar el
+programa. (Ve a "Descargar e instalar Python" en la página xxv.)
+
+![Herramienta Diff](https://inventwithpython.com/invent4thed/images/00048.jpeg "Herramienta Diff")
+
+Figura 2-6: Usando la herramienta Diff en https://www.nostarch.com/inventwithpython#diff
+
+## Como funciona el programa *Hello World*
+
+Cada línea de código es una instracción interpretada por Python. Estas
+instrucciones crean el programa. Las instrtaciones de un programa de 
+computadora son como pasos en una receta. Python ejecuta cada
+instruccion en orden, comenzando desde la cima del programa
+moviendose hasta abajo.
+
+El paso por el que Python está actualmente trabajando en el programa
+se llama la *ejecución*. Cuando un programa comienza, la ejecución is
+la primera instrucción. Después de ejecutada la instrucción, Python
+va hacia la siguiente instrucción.
+
+Veamos cada línea de código para observar qué está haciendo. Comenzaremos
+en la línea número 1.
+
+## Comentarios para el programador
+La primera línea del programa *Hello World* es un comentario.
+
+***
+<pre>
+1. # This program says hello and asks for my name.
+</pre>
+***
+
+Todo texto seguido de la marca numeral (#) es un comentario. Los
+comentarios son las notas informativas acerca de lo que el código hace;
+no están escritas para Python, sino para ti, el programador. Python ignora
+los comentarios cuando ejecuta un programa. Los programadores usualmente
+ponen un comentario el la parte de arriba del código para ponerle un
+título a su programa. El comentario en el programa *Hello World* te dice
+que el programa saluda y pregunta por tu nombre.
+
+## Funciones: miniprogramas dentro de programas
+
+Una función es como un miniprograma dentro de tu programa que contiene 
+algunas instrucciones para ejecutar en Python. Lo genial acerca de las
+funciones es que sólo necesitas saber qué es lo que hacen, y no como lo
+hacen. Python provee algunas funciones implementadas. Usamos *print()* e
+*input()* en el programa *Hello World*.
+
+Una funcion de *llamada* es una instrucción que le dice a Python que
+ejecute el código dentro de una función. Por ejemplo, tu programa llama
+la función *print()* para mostrar un string en la pantalla. La función
+*print()* toma el string que escribiste dentro de los paréntesis como
+un argumento de entrada y lo muestra en la pantalla.
+
+## La función *print()*
+
+Las líneas 2 y 3 del programa *Hello World* son llamadas a *print()*:
+
+***
+<pre>
+2. print('Hello world!')
+3. print('What is your name?')
+</pre>
+***
+
+Un valor entre paréntesis en la función es llamado como *argumento*. El
+argumento de la llamada *print()* en la línea 2 is 'Hello world!', y 
+el argumento de la llamada *print()* en la línea 3 es 'What's your name?'.
+Esto es llamado como *pasar* el argumento a la función.
+
+##La función *input()*
+
+La línea 4 es una declaración de asignación de una variable, *myName*,
+y una función de llamada, *input()*:
+
+***
+<pre>
+4. myName = input()
+</pre>
+***
+
+Cuando *input()* es llamada, el programa espera para que el usuario 
+ingrese un texto. El string de texto que el usuario ingresa se convierte
+en el valor que la llamada a función evalúa. Las llamadas a función
+pueden ser usadas dentro de expresiones en cualquier lugar donde un valor
+pueda ser usado.
+
+El valor que la llamada a función se llama valor de retorno (return value).
+(De hecho, "el valor que la llamada de una función retorna" significa lo 
+mismo que "el valor que la llamada a función evalúa".) En este caso, el 
+valor de retorno de la función *input()* es el string que el usuario
+ingresó: su nombre. Si el usaurio ingresa *Albert*, la llamada 
+función *input()* evalúa el string 'Albert'. La evaluación se ve como esto:
+
+![Evaluación de funcion](https://inventwithpython.com/invent4thed/images/00049.jpeg "Evaluacion de funcion")
+
+##Expresiones en llamadas a funciones
+
+La última línea de código en el programa *Hello World* es otra llamada a
+la función *print()*:
+
+***
+<pre>
+5. print('It is good to meet you, ' + myName)
+</pre>
+***
+
+La expresión *'It is good to meet you', + myName* está rodeada por los 
+paréntesis del *print()*. Porque los argumentos son valores únicos, Python
+evaluará primero esta expresión y luego pasará ese valor como el argumento.
+Si myValue contiene el valor 'Albert', la evaluación se verá así:
+
+![Evaluación de Albert](https://inventwithpython.com/invent4thed/images/00051.jpeg "Evaluacion de Albert")
+Así es como el programa saluda al usuario por su nombre.
+
+##El final del programa
+Una vez el programa executa la última línea, *termina* o *sale*. Esto
+significa que el programa para de ejecutarse. Python olvida todos los
+valores de las variables, incluído el string guardado en *myName*. Si
+ejecutas el programa otra vez e ingrasas un nombre diferente, el
+programa pensará que es tu nombre:
+
+***
+<pre>
+Hello world!
+What is your name?
+Carolyn
+It is good to meet you, Carolyn
+</pre>
+***
+
+Recuerda, la computadora hace exactamente lo que la programaste para hacer.
+Las computadoras son tontas y sólo siguen las instrucciones que les diste
+de forma exacta. La computadora no le importa si le ingresas tu nombre, o
+el nombre de otra persona o algo sin sentido. Escribe e ingresa lo que quieras. La computadora lo tratará de la misma manera:
+
+<pre>
+Hello world!
+What is your name?
+<b>shoe</b>
+It is good to meet you, shoe.
+</pre>
+***
