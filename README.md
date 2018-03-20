@@ -7,13 +7,15 @@ de [Al Sweigart](https://twitter.com/AlSweigart).
 ## Tabla de contenido
 
  * [Introducción](introduccion.md)
+ * [1 El «shell» interactivo](capitulo1.md)
 
 ## Mantenedor
 
 [@elopio](https://github.com/elopio), con contribuciones de:
 
-* [@tian2992](https://github.com/tian2992)
 * [@jamescr](https://github.com/jamescr)
+* [@kanguarrovi](https://github.com/kanguarrovi)
+* [@tian2992](https://github.com/tian2992)
 
 ## Contribuír
 
