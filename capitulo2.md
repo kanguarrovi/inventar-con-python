@@ -374,3 +374,69 @@ What is your name?
 It is good to meet you, shoe.
 </pre>
 ***
+
+##Nombrar variables
+
+<p align="justify">
+Dar a las variables un nombre descriptivo hace más fácil entender los que
+el programa hace. Usted podría haber llamado la variable *myName* como
+*abrahamLincoln* or *nAmE*, y Python habría ejecutado el programa de la
+misma manera. Pero estos nombres realmente no nos dicen mucho acerca lo
+que contiene el valor de la variable. Como se discutió en el Capítulo 1,
+si usted se estuviera mudando a una nueva casa y etiquetas todas las cajas
+como *Cosas*, ¡eso no sería de ninguna ayuda! Los ejemplos de la consola
+interactiva que se muestran en este libro usa nombres como *spam*, *eggs*,
+y *bacon* porque los nombres de las variables en estos ejemplos no
+importan. De todas maneras, los programas de este libro utilizan nombres
+descriptivos, y así deben estar en tus programas.
+</p>
+
+<p align="justify">
+Los nombres de las variables son sensibles a mayúsculas o minúsculas, 
+esto significa que si alguna letra del nombre de las variables está en
+minúscula o mayúscula, lo tomará como si fuera una variable distinta.
+Es esta manera *spam*, *SPAM*, *Spam* y *sPAM* son cuatro variables 
+diferentes en Python. Cada una contiene sus diferentes valores separados
+unos de otros. Es una mala idea tener valiables que combinen
+desornadamente las mayúsculas con las minúsculas en tu programa. En lugar
+de eso utiliza nombres descriptivos para tus variables.
+</p>
+
+<p align="justify">
+Los nombres de las variables usualmente se escriben en minúscula. Si hay
+más de una palabra en el nombre de la variable, es una buena idea escribir
+en mayúscula la primera letra de cada palabra despues de la primera. Por
+ejemplo, el nombre de la variable *whatIHadForBreakfastThisMorning* es
+más fácil de entender cuando se lee que *whatihadforbreakfastthismorning*.
+Los programadores también prefieren usar nombres de variables más cortos
+para hacer el código más fácil de entender: *breakfast* or 
+*foodThisMorning* es más legible que *whatIHadForBreakfastThisMorning*.
+Estas son *convenciones* opcionales, pero estandariza la forma de 
+programar en Python.
+</p>
+
+##Resumen
+
+Una vez que entiendas como usar strings y funciones, ya puedes comenzar
+a hacer programas que interactúen con los usuarios. Esto es importante 
+porque el texto es el principal medio de comunicación entre la computadora
+y el usuario. El usuario ingresa texto a través del teclado con la 
+función *input()*, y la computadora muestra el texto en la pantalla con 
+la función *print()*.
+
+Los strings son sólo valores de un nuevo tipo de datos. Todos los valores
+tienen un tipo de dato, y este valor afecta cómo el operador de adicción
+(+) funciona. 
+
+Las funciones se usan para llevar a cabo instrucciones complicadas en el
+programa. Python tiene muchas funciones preprogramadas de las que
+aprenderás más adelante en este libro. Las llamadas a funciones pueden ser
+usadas en expresiones donde sea que un valor sea utilizado. 
+
+La instrucción o paso en tu programa donde Python está trabajando en un 
+instante dado se llama ejecución. El el Capítulo 3, aprenderás más acerca
+de hacer que la ejecución del programa vaya de diferentes maneras, no 
+sólo de arriba hacia bajo del programa. Una vez aprendas estó, estarás
+listo(a) para hacer programas.
+
+[Previo: Capítulo 1](capitulo1.md) | [Siguiente: Capítulo 3: Adivine el número](capitulo3.md)
