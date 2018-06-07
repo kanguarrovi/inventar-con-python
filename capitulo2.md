@@ -175,7 +175,7 @@ Verifique si la ventana de su IDLE se ve parecida.
 Cuando usted haya escrito su código fuente, guárdelo haciendo clic en
 Archivo -> Guardar como. O presionando Ctrl + S para
 guardarlo con el atajo del teclado. La Figura 2-4 muestra la ventana de
-Guardar cuando se abre. Nombre el archivo como *hola.py* en
+Guardar cuando se abre. Nombre el archivo como *hello.py* en
 área de texto y luego haga click en **Guardar** .
 
 ![Ventana de guardado](https://inventwithpython.com/invent4thed/images/00043.jpeg "Ventana de guardado")
@@ -187,8 +187,8 @@ De esa manera, si la computadora falla o se sale accidentalmente del
 IDLE, no perderá mucho trabajo.
 
 Para cargar su programa previamente guardado, haga clic en Archivo -> Abrir 
-Seleccione el archivo *hola.py* en la ventana que aparece y haga clic sobre
-el botón Abrir. Su programa *hola.py* se abrirá en el editor de archivos.
+Seleccione el archivo *hello.py* en la ventana que aparece y haga clic sobre
+el botón Abrir. Su programa *hello.py* se abrirá en el editor de archivos.
 
 ## Ejecutando su programa
 
@@ -199,9 +199,9 @@ será ejecutado desde la consola interactiva.
 Escriba su nombre cuando el programa se lo solicite. Se parecerá a
 la Figura 2-5.
 
-![Consola interactiva despues de ejecutar hola.py](https://inventwithpython.com/invent4thed/images/00045.jpeg "Consola interactiva despues de ejecutar hola.py")
+![Consola interactiva despues de ejecutar hello.py](https://inventwithpython.com/invent4thed/images/00045.jpeg "Consola interactiva despues de ejecutar hello.py")
 
-Figura 2-5: Consola interactiva despues de ejecutar hola.py
+Figura 2-5: Consola interactiva despues de ejecutar hello.py
 
 Cuando escriba su nombre y presiona ENTER, el programa la saludará por
 su nombre. ¡Felicidades! Ha escrito su primer programa y ahora es una
