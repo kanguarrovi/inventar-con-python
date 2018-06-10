@@ -27,11 +27,11 @@ Temas cubiertos en este capítulo:
 
 ## Valores cadenas de caracteres
 
-En Python, los valores de cadenas de caracteres. Las cadenas de caracteres
-pueden ser usadas igual que como se usan valores enteros o valores flotantes.
-Usted puede almacenar cadenas de caracteres en variables. En el código, 
+En Python, los valores de texto se llaman cadenas de caracteres. Las cadenas de
+caracteres pueden ser usadas igual que como se usan valores enteros o valores 
+flotantes.Usted puede almacenar cadenas de caracteres en variables. En el código, 
 las cadenas de caracteres empiezan y terminan con comillas simples ('').
-Escriba es siguiente códido en la consola interactiva:
+Escriba el siguiente código en la consola interactiva:
 
 ***
 <pre>
@@ -42,9 +42,9 @@ Escriba es siguiente códido en la consola interactiva:
 <p align="justify">
 Las comillas simples le indican a Python dónde comienza y dónde termina 
 la cadena de caracteres. Estas comillas no son parte del valor del texto 
-de la cadena de caracteres. Ahora si ingresas spam dentro de la consola 
-interactiva, verá el contenido de la variable spam. Recuerda, Python evalua
-las variables como el valor almacanado dentro de la variable. En este caso,
+de la cadena de caracteres. Ahora si escribe spam dentro de la consola 
+interactiva, verá el contenido de la variable spam. Recuerde, Python evalua
+las variables como el valor almacenado dentro de la variable. En este caso,
 este es la cadena de caracteres 'hola'.
 </p>
 
@@ -56,7 +56,7 @@ este es la cadena de caracteres 'hola'.
 </pre>
 ***
 
-Las cadenas de caracteres pueden tener cuaquier caracter que posea el teclado
+Las cadenas de caracteres pueden tener cualquier caracter que posea el teclado
 dentro de ellos y pueden ser tan largos como usted lo requiera. Todos estos 
 son ejemplos de cadenas de caracteres:
 
@@ -76,8 +76,8 @@ son ejemplos de cadenas de caracteres:
 
 Usted puede combinar cadenas de caracteres con operadores para crear expresiones,
 igual que como lo había hecho con los valores enteros y flotantes. Cuando combina
-dos cadenas de caracteres con el el operador `+`, esa acción es llamada concatenación
-de cadenas de caracteres. Ejecuta 'Hola' + 'mundo' en la consola interactiva:
+dos cadenas de caracteres con el operador `+`, esa acción es llamada concatenación
+de cadenas de caracteres. Ejecute 'Hola' + 'mundo' en la consola interactiva:
 
 ***
 <pre>
@@ -86,9 +86,9 @@ de cadenas de caracteres. Ejecuta 'Hola' + 'mundo' en la consola interactiva:
 </pre>
 ***
 
-La expresión es evaluada como un único valor de cadena de caracteres: 'HelloWorld!'. 
+La expresión es evaluada como un único valor de cadena de caracteres: 'Holamundo'. 
 No hay espacios entre las palabras porque no hay espacios en ninguna de las 
-cadenas de caracteres condatenadas, a diferencia de este ejemplo:
+cadenas de caracteres concatenadas, a diferencia de este ejemplo:
 
 ***
 <pre>
@@ -149,13 +149,13 @@ Escriba el siguiente texto dentro de la nueva ventana del editor de archivos.
 Este es el *código fuente* del programa. Contiene las instrucciones que Python
 va a seguir cuando el programa sea ejecutado.
 
-*hola.py*
+*hello.py*
 
 ***
 <pre>
 1. # Este programa dice hola y pregunta por mi nombre.
 2. print('Hola mundo')
-3. print('¿Cuál es tu nombre?')
+3. print('¿Cuál es su nombre?')
 4. myName = input()
 5. print('Gusto en conocerle, ' + myName)
 </pre>
@@ -176,7 +176,7 @@ Cuando usted haya escrito su código fuente, guárdelo haciendo clic en
 Archivo -> Guardar como. O presionando Ctrl + S para
 guardarlo con el atajo del teclado. La Figura 2-4 muestra la ventana de
 Guardar cuando se abre. Nombre el archivo como *hello.py* en
-área de texto y luego haga click en **Guardar** .
+área de texto y luego haga clic en **Guardar** .
 
 ![Ventana de guardado](https://inventwithpython.com/invent4thed/images/00043.jpeg "Ventana de guardado")
 
@@ -192,7 +192,7 @@ el botón Abrir. Su programa *hello.py* se abrirá en el editor de archivos.
 
 ## Ejecutando su programa
 
-Es hora de ejecutar el programa. Haga click en Ejecutar -> Ejecutar Módulo.
+Es hora de ejecutar el programa. Haga clic en Ejecutar -> Ejecutar Módulo.
 O sólo presione F5 desde el editor de archivos (FN-5 en OS X). Su programa
 será ejecutado desde la consola interactiva.
 
@@ -203,7 +203,7 @@ la Figura 2-5.
 
 Figura 2-5: Consola interactiva despues de ejecutar hello.py
 
-Cuando escriba su nombre y presiona ENTER, el programa la saludará por
+Cuando escriba su nombre y presione ENTER, el programa la saludará por
 su nombre. ¡Felicidades! Ha escrito su primer programa y ahora es una
 programadora. Presione F5 de nuevo para ejecutar el programa una segunda
 vez y escriba un nombre distinto.
@@ -242,7 +242,7 @@ Figura 2-6: Usando la herramienta Diff en https://www.nostarch.com/inventwithpyt
 ## Como funciona el programa Hello World
 
 Cada línea de código es una instrucción interpretada por Python. Estas
-instrucciones forma el programa. Las instrucciones de un programa de 
+instrucciones forman el programa. Las instrucciones de un programa de 
 computadora son como pasos en una receta. Python completa cada
 instrucción en orden, comenzando desde la parte de arriba del programa
 moviéndose hasta abajo.
@@ -283,7 +283,7 @@ hacen. Python brinda algunas funciones implementadas. Usamos `print()` e
 Una *llamada* a función es una instrucción que le dice a Python que
 ejecute el código dentro de una función. Por ejemplo, su programa llama
 la función `print()` para mostrar una cadena de caracteres en la pantalla.
-La función `print()` toma la cadena de carcateres que escribió dentro de 
+La función `print()` toma la cadena de caracteres que escribió dentro de 
 los paréntesis como un argumento de entrada y lo muestra en la pantalla.
 
 ## La función `print()`
@@ -304,12 +304,12 @@ A esto se le llama *pasar* el argumento a la función.
 
 ##La función *input()*
 
-La línea 4 es una declaración de asignación de una variable, *miNombre*,
+La línea 4 es una declaración de asignación de una variable, *myName*,
 y una función de llamada, `input()`:
 
 ***
 <pre>
-4. miNombre = input()
+4. myName = input()
 </pre>
 ***
 
@@ -321,9 +321,9 @@ lugar donde un valor pueda ser usado.
 
 El valor al que evalúa la llamada a función se llama valor de retorno.
 (De hecho, "el valor al que evalúa la llamada a función retorna" significa lo 
-mismo que "el valor al que evalúa la llamada a función evalúa".) En este caso, el 
+mismo que "el valor al que evalúa la llamada a función".) En este caso, el 
 valor de retorno de la función `input()` es la cadena de caracteres que la usuaria
-escribió: su nombre. Si la usuaria ingresa *Albert*, la llamada función `input()` 
+escribió: su nombre. Si la usuaria ingresa *Albert*, la llamada a función `input()` 
 evalúa el la cadena de caracteres 'Albert'. La evaluación se ve como esto:
 
 ![Evaluación de funcion](https://inventwithpython.com/invent4thed/images/00049.jpeg "Evaluacion de funcion")
@@ -366,8 +366,8 @@ Gusto en conocerle, Carolyn
 ***
 
 Recuerde, la computadora hace exactamente lo que la programó para hacer.
-Las computadoras son tontas y sólo siguen las instrucciones que les diste
-de forma exacta.A la computadora no le importa si usted escribe su nombre, o
+Las computadoras son tontas y sólo siguen las instrucciones que usted le dio
+de forma exacta. A la computadora no le importa si usted escribe su nombre, o
 el nombre de otra persona o algo tonto. Escriba cualquier cosa que quiera. 
 La computadora lo tratará de la misma manera:
 
@@ -386,7 +386,7 @@ Dar a las variables un nombre descriptivo hace más fácil entender lo que
 el programa hace. Usted podría haber llamado la variable *myName* como
 *abrahamLincoln* o *nAmE*, y Python habría ejecutado el programa de la
 misma manera. Pero estos nombres realmente no nos dicen mucho acerca de
-que contiene el valor de la variable. Como se discutió en el Capítulo 1,
+qué contiene el valor de la variable. Como se discutió en el Capítulo 1,
 si usted se estuviera mudando a una nueva casa y etiqueta todas las cajas
 como *Cosas*, ¡eso no sería de ninguna ayuda! Los ejemplos de la consola
 interactiva que se muestran en este libro usan nombres como *spam*, *eggs*,
@@ -402,7 +402,7 @@ minúscula o mayúscula, lo tomará como si fuera una variable distinta.
 Es esta manera *spam*, *SPAM*, *Spam* y *sPAM* son cuatro variables 
 diferentes en Python. Cada una contiene sus diferentes valores separados
 unos de otros. Es una mala idea tener valiables que combinen
-desordenadamente las mayúsculas con las minúsculas en tu programa. En lugar
+desordenadamente las mayúsculas con las minúsculas en su programa. En lugar
 de eso use nombres descriptivos para sus variables.
 </p>
 
@@ -438,7 +438,7 @@ aprenderá más adelante en este libro. Las llamadas a funciones pueden ser
 usadas en expresiones donde sea que un valor sea utilizado. 
 
 La instrucción o paso en su programa donde Python está trabajando en un 
-instante dado se llama ejecución. El el Capítulo 3, aprenderá más acerca
+instante dado se llama ejecución. En el Capítulo 3, aprenderá más acerca
 de hacer que la ejecución del programa vaya de diferentes maneras, no 
 sólo de arriba hacia bajo del programa. Una vez que aprenda esto, 
 ¡estará lista para crear juegos!
