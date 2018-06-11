@@ -344,7 +344,7 @@ la función `print()`:
 La expresión *'Gusto en conocerle', + myName* está rodeada por los 
 paréntesis del `print()`. Porque los argumentos son valores únicos, Python
 evaluará primero esta expresión y luego pasará ese valor como el argumento.
-Si myValue contiene el valor 'Albert', la evaluación se verá así:
+Si myName contiene el valor 'Albert', la evaluación se verá así:
 
 ![Evaluación de Albert](https://inventwithpython.com/invent4thed/images/00051.jpeg "Evaluacion de Albert")
 Así es como el programa saluda a la usuaria por su nombre.
